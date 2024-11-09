@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humano ou IA?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .image-box {
+            display: inline-block;
+        }
+        .image-box img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .buttons {
+            margin-top: 10px;
+        }
+        .reveal {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>DIO - DESAFIO: Natural ou Fake Natty? Como Vencer na Era das IAs Generativas!Humano ou IA?</h1>
+    <p>Consegue adivinhar qual dessas imagens foi feita por um artista humano e qual foi criada por IA?</p>
+
+    <div class="container">
+        <div class="image-box">
+            <img src="imagem_1.jpg" alt="Imagem 1">
+            <div class="buttons">
+                <button onclick="revealAnswer('Imagem 1', 'IA')">IA</button>
+                <button onclick="revealAnswer('Imagem 1', 'Humano')">Humano</button>
+            </div>
+        </div>
+        <div class="image-box">
+            <img src="imagem_2.jpg" alt="Imagem 2">
+            <div class="buttons">
+                <button onclick="revealAnswer('Imagem 2', 'IA')">IA</button>
+                <button onclick="revealAnswer('Imagem 2', 'Humano')">Humano</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="result" class="reveal"></div>
+
+    <script>
+        function revealAnswer(image, guess) {
+            const answer = {
+                "Imagem 1": "IA",
+                "Imagem 2": "Humano"
+            };
+            const result = guess === answer[image] ? "Você acertou!" : "Você errou!";
+            document.getElementById("result").textContent = `${result} A ${image} foi feita por ${answer[image]}.`;
+        }
+    </script>
+</body>
+</html>
