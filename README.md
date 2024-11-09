@@ -18,3 +18,6 @@ Este projeto desafia você a adivinhar: uma imagem foi criada por IA e a outra p
 
 ## 💭 Reflexão
 A experiência levanta questões sobre o papel da IA na arte e se é possível distinguir o toque humano do artificial. Esse exercício mostra como a IA pode reproduzir estilos, mas será que consegue capturar a "essência" criativa humana?
+
+## 🌐 Acessar Desafio
+[Acesse o desafio aqui!](https://andrederis.github.io/lab-natty-or-not/)
