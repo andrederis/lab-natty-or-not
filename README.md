@@ -4,7 +4,7 @@
 Este projeto desafia você a adivinhar: uma imagem foi criada por IA e a outra por um artista humano. Será que você consegue identificar qual é qual? A IA generativa está se tornando incrivelmente convincente, então colocamos à prova sua percepção com este jogo visual.
 
 ## 🤖 Tecnologias Utilizadas
-- GitHub Copilot / Microsoft Copilot Stable Diffusion para gerar imagens por IA.
+- GitHub Copilot / Microsoft Copilot para gerar imagens por IA.
 - HTML e JavaScript para criar uma página web interativa.
   
 ## 🧐 Processo de Criação
